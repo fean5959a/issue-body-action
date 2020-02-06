@@ -7,7 +7,6 @@ try {
     var eventJsonContent = JSON.parse(eventContent);
     var issueContent = JSON.parse(eventJsonContent.issue.body);
     for (var key in issueContent) {
-        console.log("Length "+key+":"+issueContent[key].length)
         if (issueContent[key].length > 0) {
             console.log("Export variable: " + key + "=" + issueContent[key]);
             core.exportVariable(key, issueContent[key])
