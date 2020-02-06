@@ -1,6 +1,5 @@
 name: 'ADEO Issue Body Environment Variable'
 description: ''
-inputs:
 runs:
   using: 'node12'
   main: 'index.js'
