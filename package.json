@@ -19,6 +19,7 @@
   "homepage": "https://github.com/fean5959a/issue-body-action#readme",
   "dependencies": {
     "@actions/core": "^1.2.2",
-    "fs": "0.0.1-security"
+    "fs": "0.0.1-security",
+    "yaml": "^1.7.2"
   }
 }

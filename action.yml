@@ -1,5 +1,9 @@
 name: 'ADEO Issue Body Environment Variable'
 description: ''
+input:
+  format:
+    description: 'Format of the issue body, (json|yaml)'
+    required: true
 runs:
   using: 'node12'
   main: 'index.js'
