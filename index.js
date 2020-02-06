@@ -19,6 +19,10 @@ try {
     }
 
     for (var key in issueContent) {
+        if (!issueContent[key]) {
+            console.log("Skip export variable: " + key);
+            continue
+        }
         core.debug("Variable length " + key + ":" + issueContent[key].length);
         if (issueContent[key].length > 0) {
             console.log("Export variable: " + key + "=" + issueContent[key]);
