@@ -1,0 +1,24 @@
+{
+  "name": "issue-body-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fean5959a/issue-body-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fean5959a/issue-body-action/issues"
+  },
+  "homepage": "https://github.com/fean5959a/issue-body-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.2",
+    "fs": "0.0.1-security"
+  }
+}
